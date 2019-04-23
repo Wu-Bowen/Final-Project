@@ -1,8 +1,18 @@
-For my final project, I was planning on doing something that expresses me (sort of like an About Me page). 
-Of the three diagrams, one of it will be related to my heritage. My Chinese ethnicity is a large part of my identity, that is why I feel like it is necessary when describing myself. 
+My final project will revolve around weather. Weather has a very artistic/emotional aspect of it, so I think it'll be something cool to incorporate into a visual project. Furthermore, I  hope to attach an emotion with each weather so that each diagram has its own emotional story.
 
-Another aspect of myself that I'd like to portray is my hobbies and interests. Something that I feel is another part of my identity are my interests. Some interests that I could list are Tennis and Saxophone, both subjects being a major part of my childhood. I feel like I should dedicate a diagram for it, as it is a chunk in my life. 
+The three forms of weather I will be portraying will be:
 
-The third diagram I will dedicate to my personal life. This is where my friends and family belong. I think this would best be portrayed using images in a slideshow format. While a simple slideshow may be too boring, an option is to have images of my friends and family thrown into the window screen. Thus, you see a mass of pictures, though too many and too fast to fully appreciate.
+1. Rain
 
-Finally music has always been a major part in my life. Each of these diagrams should have a musical background to it, maybe Chinese music for the Heritage diagram. I was in Jazz and Marching band, so there could also be a saxophone song in the background of my Interest diagram. 
+This will likely be a page with programmed rain. Ideally, I animate someone in the rain, where clicking the person can add features to the page (maybe increase/decrease rain speed). This page should be programmed with HTML, CSS animation, and Javascript (a button on the person). The emotion that I plan to add with this is sadness. 
+
+
+2. Fire
+
+I think this diagram can focus on the chaos of fire. I think I'm planning to do a simple picture of someone knocking over a candle. The fire lights the page, and eventually engulfs the whole page. This could be portrated with HTML canvas. The emotion I plan to this weather is anger.
+
+3. Wind
+
+This will be a moving diagram, following the path of a leaf. While this is still a preliminary thought, I wish to create a page that will basically move to focus on a single object. The emotion I plan to add this diagram is peacefulness. Ideally it'll be a placid drawing.
+
+Ultimately, I wish to paint a story with a single wordless page that not only expresses an element, but also an emotion.
