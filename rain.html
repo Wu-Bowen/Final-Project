@@ -3,113 +3,14 @@
 <head>
     <title>Rain</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <style>
-    body {
-        padding: 0;
-        margin: 0;
-
-        background: url(background.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        filter: brightness(60%);
-    }
-
-    #rain {
-        height: 100%;
-        background: url(rain.png);
-        animation: rain .5s linear infinite;
-    }
-
-
-    #rain:before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background: white;
-        animation: lighting 6s linear infinite;
-        opacity: 0;
-
-    }
-
-    #umbrella{
-      transform: rotate(90deg);
-      position: absolute;
-      bottom: 10%;
-      left: 45%;
-      opacity: .6;
-    }
-
-    @keyframes rain {
-        0% {
-            background-position: 0% 0%;
-        }
-
-        100% {
-            background-position: 20% 70%;
-        }
-    }
-    @keyframes rain2 {
-        0% {
-            background-position: 0% 0%;
-        }
-
-        100% {
-            background-position: -20% 70%;
-        }
-    }
-
-
-
-    @keyframes lighting {
-        10% {
-            opacity: 0;
-        }
-
-        12% {
-            opacity: .8;
-        }
-
-        17% {
-            opacity: 0;
-        }
-
-        20% {
-            opacity: .4;
-        }
-
-        22% {
-            opacity: 0;
-        }
-    }
-    </style>
+    <link rel="stylesheet" type="text/css" href="stylerain.css">
+    
 </head>
 
 <body>
     <div id="rain"></div>
     <img id="umbrella" src="umbrella.svg" alt="umbrella" height="94px" width="100px" />
-    <script>
-        let umbrella = document.getElementById('umbrella');
-        let rain = document.getElementById('rain');
-        var boolean = true;
-        function flipRain() {
-          if(boolean){
-            rain.style.background = "url('rain2.png')";
-            rain.style.animationName = "rain2";
-            boolean = false;
-          }
-          else{
-            rain.style.background = "url('rain.png')";
-            rain.style.animationName = "rain";
-            boolean = true;
-          }
-        }
-
-
-         umbrella.addEventListener("click", flipRain);
-
-    </script>
+ <script src="scriptrain.js"></script>
 </body>
 
 </html>
